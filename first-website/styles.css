@@ -1,0 +1,32 @@
+body {
+  background-color: lightblue;
+  margin: 0;
+}
+
+p {
+  color:black;
+  background:rgb(0,128,128);
+
+  border: 6px solid #ff80ff;
+  padding: 40px;
+  margin: 50px;
+}
+
+h1 {
+  color: #b366ff;
+  font-size: 90px;
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.special {
+  background: lightgray;
+  font-size: 30px;
+}
+
+.small-image{
+  width: 200px;
+}
