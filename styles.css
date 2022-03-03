@@ -12,6 +12,10 @@ ul {
   padding-bottom: 140px;
 }
 
+a {
+  color: rgb(234, 242, 245);
+}
+
 img {
   max-width: 100%;
   max-height: 250px;
