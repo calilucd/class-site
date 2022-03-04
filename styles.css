@@ -5,7 +5,17 @@ body {
   font-size: 22px;
   margin: 0;
   font-family: 'Pokemon Solid', sans-serif;
-  letter-spacing: 2.7px;
+  letter-spacing: 3px;
+}
+
+h1 {
+  color: rgb(218, 222, 69);
+  text-shadow: 6px 5px 6px rgb(38, 45, 213);
+}
+
+p {
+  color: rgb(218, 222, 69);
+  text-shadow: 6px 5px 6px rgb(38, 45, 213);
 }
 
 ul {
@@ -16,6 +26,11 @@ ul {
 
 a {
   color: rgb(234, 242, 245);
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: rgb(190, 190, 194);
 }
 
 img {
