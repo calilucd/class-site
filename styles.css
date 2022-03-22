@@ -4,7 +4,7 @@ body {
   text-align: center;
   font-size: 22px;
   margin: 0 auto;
-  font-family: 'Pokemon Solid', sans-serif;
+  font-family: 'Pokemon Solid', monospace;
   letter-spacing: 3px;
 }
 
