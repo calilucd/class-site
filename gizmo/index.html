@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title></title>
+  <title>gizmo</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,5 +9,57 @@
 </head>
 
 <body>
+  <div class='marquee1'>자유 속에 쳐진 바리케이드 yeah. Counting stars
+    밤하늘에 펄. We keep all the party in this room all night
+    We don't wanna put it on the brake, hold tight. Your love, your love, your love (I want that). 날 안아줘 my baby 바보 같은 나. I'll love you if you let me, baby. Love the textures of your mind (Yeah), tell me that it’s all of mine (All of mine).</div>
+
+  <div class="slideshow" style="max-width:500px">
+    <img class="mySlides" src="images/2xxx-pissonme.jpeg" style="width:100%">
+    <img class="mySlides" src="images/beo-countingstars.jpeg" style="width:100%">
+    <img class="mySlides" src="images/bts-allnight.jpeg" style="width:100%">
+    <img class="mySlides" src="images/bts-home.jpeg" style="width:100%">
+    <img class="mySlides" src="images/crush-nappa.jpeg" style="width:100%">
+    <img class="mySlides" src="images/dean-love.jpeg" style="width:100%">
+    <img class="mySlides" src="images/dprlive-jamandbutterfly.jpeg" style="width:100%">
+    <img class="mySlides" src="images/dprlive-knowme.jpeg" style="width:100%">
+    <img class="mySlides" src="images/millic-paradise.jpeg" style="width:100%">
+    <img class="mySlides" src="images/mino-hopin.jpeg" style="width:100%">
+    <img class="mySlides" src="images/nafla-iminlove.jpeg" style="width:100%">
+    <img class="mySlides" src="images/nafla-utg.jpeg" style="width:100%">
+    <img class="mySlides" src="images/nctu-ok.jpeg" style="width:100%">
+    <img class="mySlides" src="images/penomeco-cocobottle.jpeg" style="width:100%">
+    <img class="mySlides" src="images/penomeco-goodmorning.jpeg" style="width:100%">
+    <img class="mySlides" src="images/penomeco-no5.jpeg" style="width:100%">
+  </div>
+
+  <div class='marquee2'>This liquors got me faded
+    talking crazy, its got me thinking bout you
+    how are you lately? Don't know why you come through in my mind 꿈속에선 닿으면 사라질 듯한. Now I’m feelin’ like a like a shark 버스타, 어부바. 어디 도 못가 I'm in love. Oh no, I don’t trust nobody anymore, oh lord, I don’t trust nobody anymore. My baby says she wanna dance with a ghost she wants to leave me, uh? Lock the door door door door, sounds like 똑 똑 똑 똑. 표현이 서툴렀던 아이 천천히 알아가는 사이. You’re the only one I need you 24 hours, 너의 향기는 아름다움의 symbol 마릴린 먼로.</div>
+
+  <script src="jquery-3.6.0.min.js"></script>
+  <script
+  src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+  integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+  crossorigin="anonymous"></script>
+  <script src="jquery.marquee.min.js"></script>
+  <script src="functions.js"></script>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+</script>
+
 </body>
 </html>
