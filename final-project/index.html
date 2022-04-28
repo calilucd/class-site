@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <title>final project</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class='marquee1'>자유 속에 쳐진 바리케이드 yeah. Counting stars
+  밤하늘에 펄. We keep all the party in this room all night
+  We don't wanna put it on the brake, hold tight. Your love, your love, your love (I want that). 날 안아줘 my baby 바보 같은 나. I'll love you if you let me, baby. Love the textures of your mind (Yeah), tell me that it’s all of mine (All of mine).</div>
+
+  <div class="row">
+    <div class="column">
+      <img class="hoverImage" src="images/nafla-utg.jpeg">
+
+      <img class="hoverImage" src="images/nafla-iminlove.jpeg">
+
+      <img class="hoverImage" src="images/mino-hopin.jpeg">
+
+      <img class="hoverImage" src="images/millic-paradise.jpeg">
+    </div>
+    <div class="column">
+      <img class="hoverImage" src="images/dprlive-jamandbutterfly.jpeg">
+
+      <img class="hoverImage" src="images/dprlive-knowme.jpeg">
+
+      <img class="hoverImage" src="images/beo-countingstars.jpeg">
+
+      <img class="hoverImage" src="images/bts-home.jpeg">
+    </div>
+    <div class="column">
+      <img class="hoverImage" src="images/dean-love.jpeg">
+
+      <img class="hoverImage" src="images/penomeco-no5.jpeg">
+
+      <img class="hoverImage" src="images/penomeco-cocobottle.jpeg">
+
+      <img class="hoverImage" src="images/penomeco-goodmorning.jpeg">
+    </div>
+    <div class="column">
+      <img class="hoverImage" src="images/2xxx-pissonme.jpeg">
+
+      <img class="hoverImage" src="images/crush-nappa.jpeg">
+
+      <img class="hoverImage" src="images/bts-allnight.jpeg">
+
+      <img class="hoverImage" src="images/nct127-kickit.jpeg">
+    </div>
+  </div>
+
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7fFz5eeObu4DWwCNSiDjOh?utm_source=generator" width="50%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+  <div class='marquee2'>This liquors got me faded
+  talking crazy, its got me thinking bout you
+  how are you lately? Don't know why you come through in my mind 꿈속에선 닿으면 사라질 듯한. Now I’m feelin’ like a like a shark 버스타, 어부바. 어디 도 못가 I'm in love. Oh no, I don’t trust nobody anymore, oh lord, I don’t trust nobody anymore. My baby says she wanna
+  dance with a ghost she wants to leave me, uh? Lock the door door door door, sounds like 똑 똑 똑 똑. 표현이 서툴렀던 아이 천천히 알아가는 사이. You’re the only one I need you 24 hours, 너의 향기는 아름다움의 symbol 마릴린 먼로.</div>
+
+<script src="jquery-3.6.0.min.js"></script>
+
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+
+<script src="jquery.marquee.min.js"></script>
+
+<script src="functions.js"></script>
+
+<!-- //script to change image from jpeg to gif while hovering
+//then back from gif to jpeg when mouse is not hovering. -->
+<script>
+    $(function() {
+        $(".hoverImage").hover(
+
+            function() {
+                $(this).attr("src", ($(this).attr("src").substr(0, ($(this).attr("src").length) - 4)) + "gif");
+            },
+            function() {
+                $(this).attr("src", ($(this).attr("src").substr(0, ($(this).attr("src").length) - 3)) + "jpeg");
+            }
+        );
+    });
+</script>
+</body>
+</html>
