@@ -12,7 +12,7 @@ body {
 h1 {
   color: #B6BEDA;
   font-size: 70px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 ul {
@@ -20,14 +20,15 @@ ul {
   display: flex;
   flex-direction: column;
   font-size: 25px;
-  padding-top: 90px;
+  padding-top: 40px;
 }
 
-a {
-  color: #B6BEDA;
-  text-decoration: none;
+p {
+  color: rgb(78, 78, 78);
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
-a:link, a:visited {
-  color: #C6D1E9;
+img {
+  max-height: 1000px;
 }
